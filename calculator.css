@@ -1,0 +1,83 @@
+/* General page styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* Layout: sidebar + main content */
+.calculator {
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #334155;
+}
+
+/* Calculator content styles */
+.calculator-content {
+    margin-left: 220px; /* space for sidebar */
+    padding: 30px;
+    background-color: white;
+    flex: 1;
+    min-height: 100vh;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    color: #1e293b;
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Input fields */
+input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}

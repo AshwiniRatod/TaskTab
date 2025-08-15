@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ashwini",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cros": "^1.1.0",
+    "express": "^5.1.0"
+  }
+}
